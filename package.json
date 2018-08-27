@@ -1,7 +1,7 @@
 {
   "name": "vanilla-html-css-modules-loader",
   "description": "Webpack loader to rewrite html classes to css-modules classes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "repository": "https://github.com/mgibas/vanilla-html-css-modules-loader.git",
   "author": "Maciej Gibas <gibasmaciej@gmail.com>",
