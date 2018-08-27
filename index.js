@@ -1,7 +1,7 @@
 const fs = require('fs')
 const classRegex = /<.*(class="[\w-\s]*").*>/gm
 
-module.exports = function(content, map, meta) {
+module.exports = function(content) {
   let mapPath = this.resourcePath.replace('.html','.scss.json')
   let map = JSON.parse(fs.readFileSync(mapPath))
   let mapClasses = Object.keys(map) 
